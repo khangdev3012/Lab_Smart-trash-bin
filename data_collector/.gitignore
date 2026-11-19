@@ -1,0 +1,31 @@
+# --- 1. PlatformIO & VS Code ---
+.pio/
+.vscode/
+*.bin
+*.elf
+*.map
+.vscode/.browse.c_cpp.db*
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/ipch
+
+# --- 2. Python & Môi trường ảo ---
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# --- 3. Dataset ảnh & File nén (Rất nặng, tuyệt đối không đẩy lên Git) ---
+dataset/
+*.zip
+*.tflite
+
+# --- 4. Thông tin bảo mật (Wi-Fi SSID / Password) ---
+.env
+include/secrets.h
+src/secrets.h
+
+# --- 5. File rác hệ điều hành ---
+Thumbs.db
+desktop.ini
+.DS_Store
