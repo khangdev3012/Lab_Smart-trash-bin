@@ -4,8 +4,8 @@
 #include "esp_camera.h"
 #include "secrets.h"
 
-const char* SSID = "ssid";
-const char* PASS = "pass";
+const char* SSID = ssid;
+const char* PASS = pass;
 #define LED_PIN 47
 
 WebServer server(80);
